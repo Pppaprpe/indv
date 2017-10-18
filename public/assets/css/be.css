@@ -1,0 +1,86 @@
+#app-layout {
+	background-color: #E3E3E3;
+}
+#app-layout .ui.vertical.menu {
+
+	padding-top: 20px;
+}
+
+#app-layout .ui.vertical.menu .item img {
+
+	width: 100px;
+	height: auto;
+}
+
+#app-layout .ui.inverted.grey.menu .active.item {
+
+	border-color: #F78B20 !important;
+	color: #F78B20 !important;
+	font-weight: 700;
+}
+
+.ui.vertical.menu .item > .label:hover {
+
+	color: rgba(242, 113, 28, 0.6);
+}
+
+#app-layout .pusher {
+
+	background-color: #E3E3E3;
+	padding-bottom: 0 !important;
+	padding-top: 50px !important;
+}
+
+
+#listclass .ui.form .field .ui.input, .ui.form .fields .field .ui.input, .ui.form .wide.field .ui.input {
+
+	width: 70%;
+}
+
+#editclass .ui[class*="center aligned"].segment {
+
+	width: 50%;
+	margin-left: 25%;
+}
+
+#app-layout .ui.selection.dropdown {
+
+	padding-top: 0.5em;
+	min-width: 1em;
+}
+
+#user-create .ui.form .field .ui.input, .ui.form .fields .field .ui.input, .ui.form .wide.field .ui.input {
+
+	width: 100%;
+}
+
+#select-role .ui.selection.dropdown {
+
+	width: 50%;
+}
+
+.ui.secondary.pointing.menu .active.item {
+
+    border-color: #F2711C !important;
+    color: rgba(242, 113, 28, 0.95) !important;
+}
+
+#container {
+	margin: 15px 0 0 20px !important;
+}
+
+.ui.label>.icon {
+	margin: 0 .3em 0 0 !important;
+}
+
+#user-form {
+	width: 500px !important;
+}
+
+.ui.breadcrumb a:hover {
+  color: #fff !important;
+}
+
+.ui.list .list>a.item, .ui.list>a.item {
+	color: #F2711C !important;
+}
