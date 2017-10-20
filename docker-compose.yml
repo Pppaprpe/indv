@@ -8,5 +8,9 @@ services:
      MYSQL_DATABASE: db_dev
      MYSQL_USER: admin
      MYSQL_PASSWORD: password123
+# images
   redis:
     image: redis
+  nginx:
+    image: nginx
+    container_name: nginx_1:1
