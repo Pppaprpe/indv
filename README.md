@@ -1,3 +1,4 @@
-# indv
-individual flight booking
+# README #
+
+Individual flight booking
 Development LAMP Stack
