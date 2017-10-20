@@ -1,0 +1,12 @@
+version:'3.3'
+services:
+  db:
+    image: mysql:7.5
+   restart: always
+   environment:
+     MYSQL_ROOT_PASSWORD: mydb
+     MYSQL_DATABASE: db_dev
+     MYSQL_USER: admin
+     MYSQL_PASSWORD: password123
+  redis:
+    image: redis
